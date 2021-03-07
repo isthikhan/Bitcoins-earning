@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 
-<suite name="Coin Suite">
-<test name="Coin Tc">
+<suite name="Minex">
+<test name="Minexc">
 <classes>
-<class name ="ALLCOINS.binance"/>
-<class name ="ALLCOINS.itc"/>
-<class name ="ALLCOINS.nem"/>
-<class name ="ALLCOINS.tether"/>
-<class name ="ALLCOINS.tron"/>
+<class name ="Minex.minex"/>
+
+
 </classes>
 </test>
 </suite>

@@ -8,11 +8,31 @@
           <include name="Binancelogin"/>
         </methods>
       </class> <!-- ALLCOINS.binance -->
+      <class name="ALLCOINS.neo">
+        <methods>
+          <include name="neologin"/>
+        </methods>
+      </class> <!-- ALLCOINS.neo -->
       <class name="ALLCOINS.tron">
         <methods>
           <include name="Tronlogin"/>
         </methods>
       </class> <!-- ALLCOINS.tron -->
+      <class name="ALLCOINS.itc">
+        <methods>
+          <include name="ITClogin"/>
+        </methods>
+      </class> <!-- ALLCOINS.itc -->
+      <class name="ALLCOINS.tether">
+        <methods>
+          <include name="Tetherlogin"/>
+        </methods>
+      </class> <!-- ALLCOINS.tether -->
+      <class name="ALLCOINS.nem">
+        <methods>
+          <include name="NEMlogin"/>
+        </methods>
+      </class> <!-- ALLCOINS.nem -->
     </classes>
   </test> <!-- Coin Tc(failed) -->
 </suite> <!-- Failed suite [Coin Suite] -->
